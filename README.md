@@ -13,8 +13,14 @@ Endalkachew Desta
 Matt Houk  
 
 
-Project Description
+## Project Description
 
 Create a marketplace for loyalty tokens for breweries. Facilitate participating breweries creation of rewards tokens and provide a marketplace where they can be traded for others. 
 
 *Add in NFT structure?* 
+
+## Objectives / Project Questions to Answer 
+
+## Data Sources (APIs, Datasets)
+
+## Rough Breakdown of Tasks
