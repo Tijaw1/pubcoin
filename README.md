@@ -40,7 +40,10 @@ Create a marketplace for loyalty tokens for breweries. Facilitate participating 
 - Slideshow 
 
 
-Secondary: 
+Secondary:
+
+- Randomized NFT incentive; occasionally a transaction might result in creating a new randomized, collectible digital object (anthropomorphised beer varieties?) which would be resellable and thus further incentivise consumer participation.
 
 ## Out of scope 
--
+- Elaborate UI/UX implementation.
+- Fully realized business model for the token / loyalty service.
