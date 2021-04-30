@@ -2,7 +2,7 @@
 Pubcoin. A rewards token for breweries. 
 Brewards 
 
-![beer](Images/beer.png)
+![beer](Images/Beer.png)
 
 ## Team Members: 
 Matthew Newkirk  
