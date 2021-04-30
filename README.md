@@ -2,7 +2,7 @@
 Pubcoin. A rewards token for breweries. 
 Brewards 
 
-![beer](Images/Beer.png)
+![beer](Images/beersm.png)
 
 ## Team Members: 
 Matthew Newkirk  
@@ -21,6 +21,12 @@ Create a marketplace for loyalty tokens for breweries. Facilitate participating 
 
 ## Objectives / Project Questions to Answer 
 
+- 
+
 ## Data Sources (APIs, Datasets)
 
+- Open Zeppelin 
+- 
+
 ## Rough Breakdown of Tasks
+- 
