@@ -12,7 +12,7 @@ contract pubcoin is ERC20, ERC20Mintable {
 	string private symbol;
 	uint8 private decimal;
 
-	//the creator of the contarct is the owner
+	//Contract creator is the owner
 	constructor(
 	    address _owner,
 	    string memory _name,
