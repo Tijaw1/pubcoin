@@ -21,7 +21,14 @@ Create a marketplace for loyalty tokens for breweries. Facilitate participating 
 
 ## Objectives / Project Questions to Answer 
 
-- Contracts for:  
+- Contracts for: 
+    - Boilerplate for each brewery to create a token 
+    - Crowdsale for each brewery (provide option for crowdsale or auction?) 
+    - Providing tokens as rewards
+    - "Marketplace" 
+        1. Set exchange rate (Based on ETH) 
+        2. Have a global token? 
+    - Random NFT boilerplate for each token? Or for the global token? 
 
 ## Data Sources (APIs, Datasets)
 
