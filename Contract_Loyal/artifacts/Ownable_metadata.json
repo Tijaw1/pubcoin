@@ -1,0 +1,252 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "members",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "memberAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "points",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isRegistered",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "partners",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "partnerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isRegistered",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "partnersInfo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "partnerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isRegistered",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "recoverActions",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "newMemberAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "oldMemberAddress",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transactionsInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "points",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum PointsTokenStorage.TransactionType",
+						"name": "transactionType",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "memberAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "partnerAddress",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {
+				"owner()": {
+					"notice": "Returns the address of the owner"
+				},
+				"transferOwnership(address)": {
+					"notice": "Allows the current owner to transfer control of the contract to a newOwner. newOwner the address to transfer ownership to."
+				}
+			},
+			"notice": "Title Ownable This contract has an owner address providing basic authorization control"
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract_Loyal/Ownable.sol": "Ownable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract_Loyal/Ownable.sol": {
+			"keccak256": "0x8c1b13620dbed20c6585be320bdfe842a8d1baf93944082f58c89e240f5dd2ca",
+			"urls": [
+				"bzz-raw://8a230f9a9d21ad8662f06009b7348bb0e35df0593d9b1be1e607573e12ce9474",
+				"dweb:/ipfs/QmcKRpMeWB7rrJUXMudCkTAf2qGCVzHDNYVjo6g3Dopy61"
+			]
+		},
+		"Contract_Loyal/PointsTokenStorage.sol": {
+			"keccak256": "0xfea888e7763120f94b24f55034294ca5ba847aaf29bf6cbbe8372979e3a6840f",
+			"urls": [
+				"bzz-raw://7baead3bf380ecbc55259b19c6b87bbd6a1405c5e073ed722a384d922a18130a",
+				"dweb:/ipfs/QmaGnoDcgJ1sCGWzrfLJurPNUiESfRsX1WV1DAs7hSUuLz"
+			]
+		}
+	},
+	"version": 1
+}

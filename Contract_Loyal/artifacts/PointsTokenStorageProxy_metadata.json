@@ -1,0 +1,210 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "members",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "memberAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "points",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isRegistered",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "partners",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "partnerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isRegistered",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "partnersInfo",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "partnerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "isRegistered",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "recoverActions",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "newMemberAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "oldMemberAddress",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "transactionsInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "points",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum PointsTokenStorage.TransactionType",
+						"name": "transactionType",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "memberAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "partnerAddress",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {},
+			"notice": "Title EternalStorageProxy This proxy holds the storage of the token contract and delegates every call to the current implementation set. Besides, it allows to upgrade the token's behaviour towards further implementations, and provides basic authorization control functionalities"
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contract_Loyal/LoyaltyPoints.sol": "PointsTokenStorageProxy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contract_Loyal/ILoyaltyPoints.sol": {
+			"keccak256": "0x3bdd7e20ccd8b450a8c7f3b5772c0c47f088620e1af9e4f0993f92d011f5e588",
+			"urls": [
+				"bzz-raw://61acffd43d2b04d83ba364e3600b7ab7104e218ce83d8d34ccb15133b38395ef",
+				"dweb:/ipfs/QmPXotqoX3nLadjiizT6otXmoB4kh71K71E8i579L9T3Lk"
+			]
+		},
+		"Contract_Loyal/LoyaltyPoints.sol": {
+			"keccak256": "0x9a50b03b6c7849c3951fd2b85b621fbcfd4371c13c11f78bab8bd6e71ae570c2",
+			"urls": [
+				"bzz-raw://6a9b0d5e7cd31527e2f1d193092e87785a3d460254fa9d91a15cfe226b5e4923",
+				"dweb:/ipfs/QmXCh5B6vZhhRcS6HqqX7PARtxrJhiWJF4BDdKcXHEQtWx"
+			]
+		},
+		"Contract_Loyal/Ownable.sol": {
+			"keccak256": "0x467725dcb63331853119ebcd2b5face265a0f20d3f99cf2c8c888df4951a0a94",
+			"urls": [
+				"bzz-raw://a3186e1653fd5c76cea7c476c9f50a52c2f434de7778d1aea1d3346c11655250",
+				"dweb:/ipfs/QmSyhycw5uW6K2KEPGUVo29uiPBZNQ9bzVSyZNnqZYnA6P"
+			]
+		},
+		"Contract_Loyal/PointsTokenStorage.sol": {
+			"keccak256": "0x486148e935066407fc475208dedceec6257a7487c29df66dcaad3610f37b063f",
+			"urls": [
+				"bzz-raw://d3e2cdcd9a0f0bd0fb382698a287b4025aaaa5fd2d08a6ae537a73f2a9c12f3f",
+				"dweb:/ipfs/QmRS4uDb7hwztzBLg2LHviNSCMV5kK7391ch4hBZjJXxBZ"
+			]
+		}
+	},
+	"version": 1
+}
