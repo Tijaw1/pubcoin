@@ -52,7 +52,7 @@ Value Adds: Easier implementation, better accounting, happier customers, access 
 ___
 ### Initial Deployment
 ![](Images/initial_deployment.gif)
-### Initalization Registration
+### Initialization Registration
 ![](Images/initialization_registration.gif)
 ### One Click dApp Deployment
 ![](Images/oneclickdapp_transfer.gif)
