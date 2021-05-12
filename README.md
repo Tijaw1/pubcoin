@@ -50,11 +50,11 @@ Value Adds: Easier implementation, better accounting, happier customers, access 
 <br><br>
 ## PubCoin Demo
 ___
-### Initial Deployment
+### *Initial Deployment*
 ![](Images/initial_deployment.gif)
-### Initialization Registration
+### *Initialization Registration*
 ![](Images/initialization_registration.gif)
-### One Click dApp Deployment
+### *One Click dApp Deployment*
 ![](Images/oneclickdapp_transfer.gif)
 <br><br>
 ## Retrospective
