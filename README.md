@@ -37,7 +37,7 @@ ___
 ## Technical Summary
 ___
 ### *Tools & Standards used:*
-- Developed in Remix and used MetaMask to deploy locally via Ganache and to the Ropsten Testnet
+- Developed in Remix and used MetaMask to deploy locally via Ganache and to the [Ropsten Testnet](https://ropsten.etherscan.io/tx/0x6e5631a3b38d31ba1351308443c26b3db2788ddbdb9a98028b8597380484e8ab)
 - PubCoin token was minted using standards from ERC20, ERC20 Mintable and ERC20 Detailed
 ### *Contracts developed:*
 - **Pubcoin** contract used to mint **“PubCoin”**, and any unique brewery token
