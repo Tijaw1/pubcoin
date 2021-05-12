@@ -36,6 +36,8 @@ Create a marketplace for loyalty tokens for breweries. Facilitate participating 
 - @TODO: Define which standards we want to use 
 
 ## Rough Breakdown of Tasks
+
+![pubcoindiag](Images/pubcoinOGsm.png)
 - Figure out the solidity contract structure. 
 - Interaction Structure 
 - Lightweight frontend for the breweries. 
