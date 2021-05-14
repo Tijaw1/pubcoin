@@ -44,7 +44,7 @@ ___
 - **PointsTokenStorage** holds all the necessary state variables to carry out the storage of any contract.
 - **Ownable** holds the owner address providing basic authorization control. 
 - **PointsTokenStorage** and **Ownable** contracts are used to initialize **PubCoin_Points**
-- **PubCoin_Points** contracts designed to enable registration of businesses and customers and the transaction of **PubCoins** across the marketplace. It holds the storage of the token contract and delegates every call to the current implementation set. It can also be modified to allow upgrade the token's behaviour towards further implementations, and provides basic authorization control functionalities.
+- **PubCoin_Points** contracts designed to enable registration of businesses and customers and the transaction of **PubCoins** across the marketplace. It holds the storage of the token contract and delegates every call to the current implementation set. It can also be modified to allow upgrade the token's behaviour towards further implementations, and provides basic authorization control functionalities. The set up is built with the concept of anonymity in mind. If and when anonymity becomes a lesser of a concern for the users, provisions have been made to accomadte what is to come.
 ### *Why Blockchain for Rewards/Loyalty Points system?*
 Traditional loyalty systems suffer from low redemption rates, high costs, few customer incentives and security concerns
 Blockchain systems offer open systems, less clutter, more flexibility, reduced costs, overall transparency, less fraud, and more security
