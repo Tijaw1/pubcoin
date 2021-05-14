@@ -22,7 +22,7 @@ ___
 <br><br>
 ## Project Summary:
 ___
-- Developed and minted the “PubCoin” as the asset by which businesses can register a stake in the loyalty token and/or mint their own token at a specified exchange rate for PubCoins
+- Developed and minted the “PubCoin” as the asset by which businesses can register a stake in the loyalty token and/or mint their own token (if required) at a specified exchange rate for PubCoins
 - Customers who register on the “PubCoin” marketplace can exchange tokens with fellow patrons and be rewarded additional tokens or exchange their balance for product/services by their brewery of choice for brand loyalty 
 
 ## Conceptual Diagram
@@ -41,7 +41,9 @@ ___
 - PubCoin token was minted using standards from ERC20, ERC20 Mintable and ERC20 Detailed
 ### *Contracts developed:*
 - **Pubcoin** contract used to mint **“PubCoin”**, and any unique brewery token
-- **PointsTokenStorage**, and **Ownable** contracts used to initialize **PubCoin_Points**
+- **PointsTokenStorage** holds all the necessary state variables to carry out the storage of any contract.
+- **Ownable** holds the owner address providing basic authorization control. 
+- **PointsTokenStorage** and **Ownable** contracts are used to initialize **PubCoin_Points**
 - **PubCoin_Points** contracts designed to enable registration of businesses and customers and the transaction of **PubCoins** across the marketplace
 ### *Why Blockchain for Rewards/Loyalty Points system?*
 Traditional loyalty systems suffer from low redemption rates, high costs, few customer incentives and security concerns
